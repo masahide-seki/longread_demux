@@ -14,7 +14,7 @@ longread_demux.pl -i input.fastq.gz -o output_prefix -d 70 -l index_list.txt
 
 -i, --input: Input FASTQ file (supports gzipped files).
 
--d, --distance: Distance from the read end to search for the index sequence.
+-d, --distance: Distance from the read ends to search for the index sequence.
 
 -l, --list: A text file containing a list of index sequences to be used for demultiplexing. Please refer to the file in the index_list_example directory for examples of index sequence list.
 
