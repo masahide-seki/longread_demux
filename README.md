@@ -2,8 +2,9 @@
 This tool for demultiplexing long-read FASTQ files with Illumina unique dual index.
 
 # Usage
+```bash
 longread_demux.pl -i input.fastq.gz -o output_prefix -d 70 -l index_list.txt
-
+```
 
 # Options
 
